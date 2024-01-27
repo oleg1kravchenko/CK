@@ -594,10 +594,10 @@
         justify-content: center;
     }
     .arrow-main.slick-prev {
-        left: 0;
+        left: 10px;
     }
     .arrow-main.slick-next {
-        right: 0;
+        right: 10px;
     }
     .slider-reviews .slick-slide {
         width: 600px;
