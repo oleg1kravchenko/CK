@@ -452,6 +452,7 @@ form {
 }
 .menu-dropdown {
     min-height: 620px;
+    height: 620px;
     margin-top: 20px;
     width: 1025px;
     top: 100%;
@@ -1152,7 +1153,7 @@ form {
         left: 150px;
     }
     .menu-dropdown {
-        min-height: 510px;
+        height: 510px;
         margin-top: 5px;
     }
     .menu-dropdown__left > .btn-main {
