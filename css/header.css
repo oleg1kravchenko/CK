@@ -452,7 +452,6 @@ form {
 }
 .menu-dropdown {
     min-height: 620px;
-    height: calc(100vh - 220px);
     margin-top: 20px;
     width: 1025px;
     top: 100%;
