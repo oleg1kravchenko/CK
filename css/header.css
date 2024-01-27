@@ -524,7 +524,7 @@ form {
 .content-dropdown {
     display: none;
 }
-.nav-dropdown__menu.nav-dropdown__haschild a::after {
+.nav-dropdown__menu.nav-dropdown__haschild > a::after {
     position: absolute;
     display: block;
     content: " ";
