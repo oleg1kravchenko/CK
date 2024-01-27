@@ -4,13 +4,8 @@ $(document).ready(function() {
 		e.preventDefault();
 		$(this).parent().siblings().removeClass("active");
 		$(this).parent().siblings().find(".content-dropdown").slideUp(0);
-		if ($(this).parent().hasClass("active")) {
-			$(this).parent().removeClass("active");
-			$(this).siblings(".content-dropdown").slideUp(0);
-		} else {
-			$(this).parent().addClass("active");
+		$(this).parent().addClass("active");
 			$(this).siblings(".content-dropdown").slideDown(200);
-		}
 	});
 
 	$(document).mouseup(function (e) {
