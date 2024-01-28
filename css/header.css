@@ -1097,7 +1097,7 @@ form {
         right: 3px;
     }
     .modal-block {
-        height: 90vh;
+        max-height: 90vh;
         overflow: auto;
     }
     .menu-dropdown {
