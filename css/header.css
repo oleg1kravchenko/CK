@@ -590,7 +590,7 @@ form {
     break-inside: avoid;
 }
 .item-dropdown li {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 .item-dropdown li a {
     color: #555;
@@ -600,7 +600,7 @@ form {
 }
 .item-dropdown__title {
     font-size: 16px;
-    margin-bottom: 7px;
+    margin-bottom: 10px;
     font-weight: 600;
     color: #282828;
 }
@@ -1096,6 +1096,28 @@ form {
     .btn-search:hover {
         right: 3px;
     }
+    .modal-block {
+        height: 90vh;
+        overflow: auto;
+    }
+    .menu-dropdown {
+        height: calc(100vh - 200px);
+        margin-top: 5px;
+        overflow: auto;
+    }
+    .menu-dropdown__left {
+        min-height: 100%;
+        height: auto;
+    }
+    #modal-contact.modal-block {
+        height: auto;
+    }
+    .item-dropdown li {
+        margin-bottom: 12px;
+    }
+    .item-dropdown__title {
+        margin-bottom: 12px;
+    }
 }
 
 @media only screen and (max-width : 479px) {
@@ -1150,10 +1172,6 @@ form {
     }
     .menu-dropdown::after {
         left: 150px;
-    }
-    .menu-dropdown {
-        height: 510px;
-        margin-top: 5px;
     }
     .menu-dropdown__left > .btn-main {
         font-size: 12px;

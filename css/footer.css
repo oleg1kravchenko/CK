@@ -207,6 +207,7 @@
 .slick-dots li {
     width: 11px;
     height: 11px;
+    margin: 0 2.5px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -382,6 +383,7 @@
     height: 59px;
     padding: 0 21px;
     border-radius: 15px;
+    font-size: 16px;
     width: 100%;
     background: #fff;
     font-family: 'Inter';
