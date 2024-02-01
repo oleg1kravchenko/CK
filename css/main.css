@@ -429,6 +429,7 @@
 }
 
 
+
 @media only screen and (max-width : 1200px) {
     .billbord {
         padding-top: 20px;
@@ -649,9 +650,6 @@
     }
     .text-portfolio {
         font-size: 16px;
-    }
-    .hidden-mobile {
-        display: none !important;
     }
     .portfolio .btn-block__text {
         max-width: 263px;

@@ -234,7 +234,7 @@
 .tab-pane {
     display: none;
 }
-.tab-pane:first-child {
+.tab-pane:nth-child(1) {
     display: block;
 }
 .bottom-button {
@@ -855,6 +855,13 @@
     }
     .item-review {
         padding: 23px 26px;
+    }
+    .rating__item {
+        width: 15px;
+        height: 15px;
+    }
+    .item-review__head .text-min {
+        font-size: 12px;
     }
 }
 

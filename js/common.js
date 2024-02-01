@@ -165,6 +165,8 @@ $(document).ready(function() {
 			]
 		});
 
+		
+
 
 	$('.tabs a').click(function(event) {
 		event.preventDefault();

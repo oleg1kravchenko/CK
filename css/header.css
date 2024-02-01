@@ -667,7 +667,7 @@ form {
     fill: #fff;
 }
 .modal-block .fancybox-button {
-    top: 20px;
+    top: 15px;
     right: 15px;
     padding: 0 !important;
 }
@@ -704,7 +704,7 @@ form {
 .item-form.error-input textarea,
 .item-form.error-input input {
     color: #F4213A;
-    border-color: #F4213A;
+    border-color: #F4213A !important;
 }
 .item-form.error-input *::-webkit-input-placeholder {
 	color: #F4213A;
@@ -717,6 +717,18 @@ form {
 }
 .item-form.error-input *:-ms-input-placeholder {
 	color: #F4213A;
+}
+.text-error {
+    margin-top: 8px;
+    color: #F4213A;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 100%;
+    display: none;
+    letter-spacing: -0.3px;
+}
+.error-input .text-error {
+    display: block;
 }
 .info-text {
     padding: 15px 20px;
@@ -1118,7 +1130,9 @@ form {
     .item-dropdown__title {
         margin-bottom: 12px;
     }
-
+    .hidden-mobile {
+        display: none !important;
+    }
 }
 
 @media only screen and (max-width : 479px) {
