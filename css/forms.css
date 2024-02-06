@@ -1,0 +1,310 @@
+.consultation-block.consultation-block_dark {
+    background: #272727;
+}
+.consultation-block.consultation-block_dark::after {
+    background-image: url(../img/oval1.svg);
+    background-position: right bottom;
+}
+.tags-form {
+    padding-bottom: 3px;
+    display: flex;
+    align-items: center;
+}
+.tags-form li {
+    padding: 7px 15px;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 94%;
+    letter-spacing: -0.01em;
+    color: #fff;
+    border-radius: 38px;
+    margin-bottom: 5px;
+    margin-right: 6px;
+    background: #45aa8c;
+}
+.tags-form li.tags-form_dark {
+    background: #727272;
+}
+.consultation-block_dark .consultation-block__image {
+    margin-top: -15px;
+    margin-right: 16px;
+}
+.consultation-block_light.consultation-block form,
+.consultation-block_dark.consultation-block form {
+    max-width: 590px;
+}
+.consultation-block_dark .agree-form {
+    color: #696969;
+}
+.consultation-block_dark .agree-form a {
+    color: #696969;
+    border-color: #696969;
+}
+.consultation-block_light .bottom-form .btn-main,
+.consultation-block_dark .bottom-form .btn-main {
+    min-width: 235px;
+}
+.consultation-block.consultation-block_light .text-main,
+.consultation-block.consultation-block_dark .text-main {
+    font-size: 17px;
+    margin-top: 7px;
+    max-width: 561px;
+    line-height: 126%;
+    letter-spacing: -0.03em;
+    color: #a8a8a8;
+}
+.consultation-block__mobile,
+.show-mobile {
+    display: none;
+}
+.descr-form {
+    font-size: 13px;
+    margin-top: 15px;
+    line-height: 126%;
+    letter-spacing: -0.03em;
+    color: #70d1b4;
+}
+.consultation-block.consultation-block_light {
+    background: #45aa8c;
+}
+.consultation-block.consultation-block_light .text-main {
+    color: #fff;
+    max-width: 538px;
+}
+.consultation-block_light .consultation-block__image {
+    margin-top: -22px;
+    margin-right: 0px;
+}
+.consultation-block.consultation-block_light::after {
+    background-image: url(../img/oval2.svg);
+    background-position: right -1px bottom;
+}
+.consultation-block_delivery .consultation-block__image {
+    margin-top: 12px;
+    margin-right: 16px;
+}
+
+@media only screen and (max-width : 1200px) {
+    .consultation-block__image.image-mobile {
+        display: block;
+    }
+    .consultation-block_light .title-main {
+        font-size: 38px;
+        margin-right: -40px;
+        margin-bottom: 15px;
+    }
+    .consultation-block_dark .title-main {
+        font-size: 28px;
+    }
+    .consultation-block_light .agree-form,
+    .consultation-block_dark .agree-form {
+        margin-right: -47px;
+    }
+    .consultation-block.consultation-block_light,
+    .consultation-block.consultation-block_dark {
+        overflow: hidden;
+    }
+    .consultation-block.consultation-block_light {
+        padding-top: 40px;
+    }
+    .consultation-block_dark .consultation-block__image {
+        margin-right: 0;
+        margin-bottom: -65px;
+        margin-left: -177px;
+    }
+    .consultation-block_light .consultation-block__image {
+        margin-bottom: -20px;
+        margin-left: -142px;
+        margin-right: 0;
+    }
+    .consultation-block.consultation-block_light {
+        padding-bottom: 20px;
+    }
+    .consultation-block_light .consultation-block__image {
+        margin-top: -30px;
+    }
+    .consultation-block__left {
+        z-index: 3;
+    }
+    .consultation-block.consultation-block_light::after,
+    .consultation-block.consultation-block_dark::after {
+        background-position: right -108px bottom;
+    }
+    .consultation-block__mobile {
+        display: none;
+    }
+    .descr-form {
+        max-width: 339px;
+    }
+    .consultation-block_delivery .consultation-block__image {
+        display: block;
+        margin: 0;
+        left: 0;
+        bottom: 0;
+        margin-bottom: -40px;
+        margin-left: -70px;
+    }
+    .consultation-block.consultation-block_delivery .text-main {
+        margin-top: 12px;
+        margin-bottom: 18px
+    }
+    .consultation-block_delivery.consultation-block_delivery {
+        padding-bottom: 40px;
+        overflow: hidden;
+    }
+    .consultation-block_delivery .bottom-form .btn-main {
+        min-width: 185px;
+        margin-right: 15px;
+    }
+    .consultation-blockconsultation-block_delivery::after {
+        background-position: right -392px top 72px;
+    }
+}
+
+@media only screen and (max-width : 767px) {
+    .consultation-block_light.consultation-block form,
+    .consultation-block_dark.consultation-block form {
+        max-width: 100%;
+    }
+    .consultation-block__left form {
+        padding: 29px 15px;
+        background: #ececec;
+        order: 3;
+        border-radius: 16px;
+        width: 100%;
+        color: #2a2a2a;
+    }
+    .consultation-block__left .text-main {
+        display: none;
+    }
+    .consultation-block_dark .title-main {
+        color: #45aa8c;
+    }
+    .consultation-block_dark .title-main span {
+        color: #fff;
+    }
+    .consultation-block__left  {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .tags-form {
+        padding-bottom: 5px;
+        order: 2;
+        justify-content: center;
+        width: 100%;
+    }
+    .tags-form li {
+        background: #f4213a;
+    }
+    .consultation-block__left .bottom-form .btn-main {
+        width: 100%;
+    }
+    .consultation-block__left .agree-form {
+        margin-right: 0;
+        max-width: 100%;
+    }
+    .consultation-block__image.image-mobile {
+        display: none;
+    }
+    .consultation-block__mobile {
+        margin-bottom: -80px;
+        left: -10px;
+        margin-top: 5px;
+        width: 100%;
+        display: block;
+        z-index: -1;
+        position: relative;
+    }
+    .consultation-block__mobile img {
+        max-width: 279px;
+        margin: 0 auto;
+    }
+    .consultation-block.consultation-block_light,
+    .consultation-block.consultation-block_dark {
+        padding: 28px 13px;
+        padding-bottom: 13px;
+    }
+    .consultation-block .show-mobile {
+        display: block;
+    }
+    .consultation-block .show-mobile .title-main {
+        color: #2A2A2A;
+    }
+    .consultation-block .show-mobile .text-main {
+        font-size: 14px;
+        margin-bottom: 17px;
+        display: block;
+        color: #2A2A2A;
+    }
+    .descr-form {
+        display: none;
+    }
+    .consultation-block_light .consultation-block__mobile img {
+        max-width: 293px;
+    }
+    .consultation-block_light .consultation-block__mobile {
+        margin-bottom: -23px;
+        left: 0;
+    }
+    .consultation-block_light .title-main {
+        font-size: 28px;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+    .consultation-block_light .title-main br {
+        display: none;
+    }
+    .consultation-block.consultation-block_light::after {
+        background-position: left -30px top 150px;
+        background-image: url(../img/oval2_mob.svg);
+    }
+    .consultation-block_delivery .consultation-block__image {
+        position: absolute;
+        bottom: 0;
+        right: -220px;
+        margin: 0;
+        left: auto;
+        margin-bottom: -47px;
+        opacity: 0.2;
+    }
+    .consultation-block_delivery .consultation-block__image img {
+        height: 516px;
+        width: auto;
+    }
+    .consultation-block_delivery .consultation-block__left form {
+        padding: 0;
+        background: transparent;
+    }
+    .consultation-block_delivery.consultation-block_delivery::after {
+        display: none;
+    }
+    .consultation-block_delivery .item-form {
+        margin-bottom: 13px;
+    }
+    .consultation-block.consultation-block_delivery .text-main {
+        display: block;
+        max-width: 250px;
+    }
+    .consultation-block.consultation-block_delivery .item-form textarea {
+        height: 59px;
+        padding-top: 17px;
+    }
+    .consultation-block_delivery .bottom-form .btn-main {
+        width: auto;
+        margin-bottom: 15px;
+        min-width: 195px;
+    }
+}
+@media only screen and (max-width : 479px) {
+    .consultation-block_delivery .consultation-block__image {
+        right: -246px;
+        margin-bottom: -30px;
+    }
+    .consultation-block_delivery.consultation-block_delivery {
+        padding: 32px 29px;
+    }
+    .consultation-block_delivery .consultation-block__image img {
+        height: 486px;
+    }
+}
